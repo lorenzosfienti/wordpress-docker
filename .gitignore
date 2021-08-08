@@ -7,9 +7,11 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/.gitkeep
 
 # ignore these plugins
 wp-content/plugins/hello.php
+wp-content/plugins/akismet
 
 # ignore specific themes
 wp-content/themes/twenty*/
@@ -21,3 +23,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+.env
+
+wpdb/*
+!wpdb/.gitkeep
